@@ -1,0 +1,1 @@
+<h1 class="h1 container col-12 " style="height: 40vw;">404</h1>
