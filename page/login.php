@@ -42,13 +42,9 @@ if (isset($_GET['action']) == 'logout') {
 </head>
 
 <body>
-   <div class="row">
-      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
-         <br>
-         <br>
-         <br>
-         <br>
-         <br>
+   <div class="row " style="margin-top: 10%;">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4 m">
+
          <div class="login-panel panel panel-default">
             <div class="panel-heading">Log in</div>
             <div class="panel-body">
@@ -65,6 +61,8 @@ if (isset($_GET['action']) == 'logout') {
                </form>
             </div>
          </div>
+         <a class="col-md-4 col-md-offset-1" href="../">Back</a>
+         <a class="col-md-3 col-md-offset-3" href="../">Daftar Akun</a>
       </div><!-- /.col-->
    </div><!-- /.row -->
 
